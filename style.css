@@ -1,0 +1,120 @@
+body{
+text-align: center;
+align-items: center;
+}
+
+
+
+nav{
+    position: fixed;
+    height: 70px;
+    width: 103%;
+    background:#1E1E1E;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: -10px;
+    }
+        
+    nav>a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22.5px;
+    padding: 25px;
+    text-decoration: none;
+    
+    color: peru;
+    }
+        
+    nav>a:hover{
+    font-weight: bold;
+    color: wheat;
+    }
+
+.An1{
+    height: 560px;
+    width: 103%;
+    background-image: url(./images\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+}   
+
+.An2{
+    height: 560px;
+    width: 103%;
+    background-image: url(./images.jpg);
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+}
+
+.An3{
+    height: 400px;
+    width: 103%;
+    background-image: url(./images\ \(5\).jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    margin-top: -22px;
+} 
+
+
+@media only screen and (max-width: 500px){
+    
+    nav>a{
+    font-size: 10px;
+    font-weight: 800;
+    background-color: wheat ;
+    padding: 5px;
+    border-radius: 5px;
+}
+    nav>a:hover{
+    color:black;
+}
+}
+
+.animation{
+    background-image: linear-gradient(burlywood, darkorange);
+    height: 10px;
+    width: 100px;
+margin: auto;
+animation: lolol 7s infinite ease-in-out;
+}
+
+@keyframes lolol{
+    0%{
+        width: 100px;
+    }
+
+    50%{
+        width: 1250px;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+.wes1{
+    width: 300px;
+    height: 150px;
+    background-image: linear-gradient(green, goldenrod, green, goldenrod, green, goldenrod,green, goldenrod,green, goldenrod,green, goldenrod,green, goldenrod,green, goldenrod,green, goldenrod,green, goldenrod,green, goldenrod,green, goldenrod);
+    background-attachment: fixed;
+    margin-left: 500px;
+    text-align: center;
+}
+
+.grey1{
+    color: darkorange;
+    }
+
+.dddd{
+color: goldenrod;
+}
